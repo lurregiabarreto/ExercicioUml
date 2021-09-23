@@ -1,6 +1,6 @@
 package br.com.zup;
 
-public class Magos extends  Heroi{
+public class Magos extends Heroi {
     private double poderMagico;
     private double aplicarMagia;
 
