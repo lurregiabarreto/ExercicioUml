@@ -2,17 +2,22 @@ package br.com.zup;
 
 public class Magos extends Heroi {
     private double poderMagico;
-    private double aplicarMagia;
 
-
-    public Magos(String nome, double vida, double poderMagico, double aplicarMagia) {
+    public Magos(String nome, double vida, double poderMagico) {
         super(nome, vida);
         this.poderMagico = poderMagico;
-        this.aplicarMagia = aplicarMagia;
     }
 
+    public double getPoderMagico() {
+        return poderMagico;
+    }
 
-    public void aplicarMagia() {
+    public void setPoderMagico(double poderMagico) {
+        this.poderMagico = poderMagico;
+    }
+
+    public double aplicarMagia() {
+        return poderMagico ;
 
     }
 }

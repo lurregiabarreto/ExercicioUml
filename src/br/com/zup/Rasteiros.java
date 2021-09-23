@@ -5,7 +5,7 @@ public class Rasteiros extends Inimigos {
 
     private double danosEspinhos;
 
-    public Rasteiros(String nome, double vida) {
+    public Rasteiros(String nome, double vida, double danosEspinhos) {
         super(nome, vida);
     }
 
@@ -17,6 +17,7 @@ public class Rasteiros extends Inimigos {
         this.danosEspinhos = danosEspinhos;
     }
 
-    public void aplicarDanos() {
+    public double aplicarDanos() {
+        return danosEspinhos;
     }
 }

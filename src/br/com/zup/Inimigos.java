@@ -25,15 +25,18 @@ public class Inimigos {
         this.vida = vida;
     }
 
-    public void trocarNome(String nome) {
+    public void trocarNome(String novoNome) {
+        nome =  novoNome;
+
 
     }
 
     public void receberDano(double dano) {
+        vida = vida - dano;
 
     }
 
-    public void exibirVida() {
-        double vidas;
+    public double exibirVida() {
+        return vida;
     }
 }

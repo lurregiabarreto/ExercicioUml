@@ -29,14 +29,16 @@ public class Heroi {
     }
 
     public void trocarNome(String nome) {
+        setNome(nome);
 
     }
 
     public void receberDano(double dano) {
+        this.vida = this.vida - dano;
 
     }
 
-    public void exibirVida() {
-        double vidas;
+    public double exibirVida() {
+        return vida;
     }
 }
