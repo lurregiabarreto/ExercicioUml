@@ -27,13 +27,16 @@ public class Heroi {
     public void setVida(double vida) {
         this.vida = vida;
     }
-    public void trocarNome( String nome){
+
+    public void trocarNome(String nome) {
 
     }
-    public void receberDano(double dano){
+
+    public void receberDano(double dano) {
 
     }
-    public void exibirVida(){
+
+    public void exibirVida() {
         double vidas;
     }
 }

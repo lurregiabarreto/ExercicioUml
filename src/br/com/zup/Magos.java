@@ -11,6 +11,7 @@ public class Magos extends Heroi {
         this.aplicarMagia = aplicarMagia;
     }
 
+
     public void aplicarMagia() {
 
     }

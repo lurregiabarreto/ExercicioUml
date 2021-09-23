@@ -17,6 +17,6 @@ public class Rasteiros extends Inimigos {
         this.danosEspinhos = danosEspinhos;
     }
 
-    private void aplicarDanos() {
+    public void aplicarDanos() {
     }
 }
